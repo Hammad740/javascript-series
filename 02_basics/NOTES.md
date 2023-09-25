@@ -36,7 +36,7 @@ JavaScript is dynamically typed, which means that variables can hold different t
 
 While JavaScript's design can make it seem like everything is an object or can behave like an object, it's essential to understand the distinction between primitive values and objects. The ability to treat primitives as objects when needed and leverage prototypal inheritance is one of the strengths of the language, allowing for great flexibility and expressive power.
 
-
+//----------------------------------------------------------------------------------------------
 
 # Understanding Constructors in JavaScript
 
@@ -81,7 +81,7 @@ Constructors provide a way to create multiple objects with a consistent structur
 
 
 
-
+//-----------------------------------------------------------------------------------------------
 
 # Understanding Instances in JavaScript
 
