@@ -54,3 +54,14 @@ console.log(typeof myFunction);
 
 // reference
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null
+
+
+///+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+Stack(primitive),Heap(Non-primitive)
+
+
+In Stack memory a copy of data is given.
+In Heap memory original reference of data is given
+*/
