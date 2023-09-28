@@ -57,8 +57,7 @@ const myNums=[1,2,3,4,5,6,7,8,9,10]
 const ans=myNums.filter((item)=>item>4)
 console.log(ans);
 
-const books=[
-    {
+const books=[  {
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "genre": "Fiction",
@@ -147,8 +146,9 @@ const books=[
       "author": "George R.R. Martin",
       "genre": "Fantasy",
       "year": 1996
-    }
-  ]
+    }]
+
+
   const userBooks1=books.filter((item)=>item.genre==='Fantasy')
   console.log(userBooks1);
   const userBooks2=books.filter((item)=>item.year>=1900 && item.genre=="Fantasy")
@@ -156,7 +156,7 @@ const books=[
 
   const newArr=['cat','dog',true,1]
   let answer=newArr.map((item,index)=>{
-   const val=`the value at e{index} is e{item}`
+   const val=`the value at ${index} is ${item}`
    return val;
   }
   )
